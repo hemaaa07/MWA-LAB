@@ -1,0 +1,103 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the overall body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Section */
+#top-section {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+}
+
+#logo img {
+    margin-right: 10px;
+}
+
+#logo h1 {
+    font-size: 24px;
+}
+
+#navigation ul {
+    list-style-type: none;
+    display: flex;
+}
+
+#navigation ul li {
+    margin-left: 20px;
+}
+
+#navigation ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+#navigation ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content Section */
+#main-content {
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Left Section (Category Links) */
+#left-section {
+    width: 250px;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+#left-section ul {
+    list-style-type: none;
+}
+
+#left-section ul li {
+    margin-bottom: 10px;
+}
+
+#left-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+#left-section ul li a:hover {
+    color: #0066cc;
+}
+
+/* Right Section (Content Area) */
+#right-section {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-left: 2px solid #ddd;
+}
+
+#right-section h2 {
+    margin-bottom: 20px;
+}
+
+#right-section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
